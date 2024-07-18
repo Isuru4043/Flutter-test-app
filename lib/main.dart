@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
           ),
           backgroundColor: Colors.blue,
         ),
+        body: const Icon(Icons.access_time_filled_sharp),
       ),
     );
   }
