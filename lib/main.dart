@@ -12,13 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'app demo',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'app demo',
-          ),
-          backgroundColor: Colors.blue,
+        body: Image.asset(
+          "assests/images/space1.png",
+          height: 50,
         ),
-        body: const Icon(Icons.access_time_filled_sharp),
       ),
     );
   }
